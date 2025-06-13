@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedEase - Contact page</title>
+
+    <!--google-font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!--google-font-->
+
+    <!--library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--library-->
+
+    <!--shortcut log-->
+    <link rel="shortcut icon" href="medlogo.jpg">
+    <!--shortcut log-->
+    
+    <link rel="stylesheet" href="contact.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<!--header-->
+
+<header class="header">
+    <a href="#">
+        <img src="medlogo.jpg" height="100px">
+    </a>
+
+    <!--nav bar-->
+    <nav class="headbar">
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="doctor.html">Doctor</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="menubtn">
+        <button id="helpline-btn">Helpline</button>
+    </div>
+</header>
+
+<!--header-->
+
+<!--contact section-->
+
+<section class="top" id="top">
+    <div class="con">
+        <h1 class="heading">Our Experts</h1><hr>
+    </div>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="img-wrapper">
+                <img src="i1.png">
+            </div>
+
+            <div class="details">
+                <h3>Dr. Adnan</h3>
+                <h5>Internal Medicine | 20 years exp</h5>
+
+                <div class="social-icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="img-wrapper">
+                <img src="i2.png">
+            </div>
+
+            <div class="details">
+                <h3>Dr. Suhel</h3>
+                <h5>Surgen | 10 years exp</h5>
+
+                <div class="social-icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="img-wrapper">
+                <img src="i3.png">
+            </div>
+
+            <div class="details">
+                <h3>Dr. Aleena</h3>
+                <h5>Gynacologist | 9 years exp</h5>
+
+                <div class="social-icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="img-wrapper">
+                <img src="i4.png">
+            </div>
+
+            <div class="details">
+                <h3>Dr. Farhat</h3>
+                <h5>Cardiology | 8 years exp</h5>
+
+                <div class="social-icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--contact section-->
+
+<!-- jQuery script -->
+<script>
+    $(document).ready(function(){
+        $('#helpline-btn').click(function(){
+            alert('Call our helpline at 123-456-7890 for assistance!');
+        });
+    });
+</script>
+</body>
+</html>
